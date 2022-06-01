@@ -267,8 +267,8 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by @iykethe1st
-      </footer>
+      <img alt="Twitter Logo" className={styles.twitter} src="/twitter-logo.svg" />
+        <a href="https://twitter.com/iykethe1st" target="_blank">Made with &#10084; by  @iykethe1st</a>      </footer>
     </div>
   );
 
